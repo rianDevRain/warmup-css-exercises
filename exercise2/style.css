@@ -1,0 +1,46 @@
+html{
+    box-sizing: border-box;
+}
+.div1 {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    background: blue;
+}
+.div2 {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    z-index: 999;
+    background: blue;
+    left: 125px;
+}
+.div3 {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    z-index: 999;
+    background: blue;
+    left: 125px;
+    top: 125px;
+    
+}
+.div4 {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    z-index: 999;
+    background: blue;
+    top: 125px;
+}
+.div5 {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    z-index: 999;
+    background: red;
+    top: 65px;
+    left: 65px;
+    transform: rotate(45deg);
+
+}
